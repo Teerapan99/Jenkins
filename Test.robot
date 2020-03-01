@@ -12,7 +12,6 @@ Test Open Browser
 *** Test Cases ***
 TC1:Run Test Open Browser
     Wait Until Element Is Visible    name=firstname
-    Should be cob
     input text    name=firstname    Teerapan
     input text    name=lastname     Manonuek
     select radio button    sex    Female
