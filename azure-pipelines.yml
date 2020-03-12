@@ -20,7 +20,7 @@ steps:
     versionSpec: '$(python.version)'
     architecture: 'x64'
 
-- script: pip install robotframework robotframework-seleniumlibrary && npm install selenium-webdriver
+- script: pip install robotframework robotframework-seleniumlibrary && npm install ChromeDriver=80.0.3987.106
   displayName: 'Install Robot & Chromedrover'
 
 - powershell: robot Test.robot
